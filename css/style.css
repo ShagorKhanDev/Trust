@@ -1,0 +1,246 @@
+/* *All Common Css start */
+*{
+    margin: 0;
+    padding: 0;
+
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+
+}
+ul,ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+/* *All Common Css End */
+
+/* Top Hearder Part Start */
+#topheader{
+background: #3e3e3e;
+padding: 20px 0;
+}
+.topHeaderItempart{
+    display: flex;
+    justify-content: space-between;
+}
+
+.topHleft span {
+
+color: #fff;
+margin-right: 35px;
+font-size: 12px;
+font-family: "Open Sans", sans-serif;
+
+}
+.topHleft span i{
+    padding-right: 5px;
+}
+.topHright i{
+    padding: 0 10px;
+    color: #fff;
+}
+
+/* Top Hearder Part End */
+
+/* Hearder part start */
+/* Hearder part End */
+#hearderpart{
+    padding: 20px 0px;
+}
+.logoWithMenu{
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #555555;
+    font-family: "Open Sans", sans-serif;
+     font-weight: 700;
+     padding: 0 25px;
+}
+.menu{
+   padding-top: 15px; 
+}
+/* Bannerpart  start */
+#bannerpart{
+
+background: url(../imag/1.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
+}
+.banneroverly{
+    background: rgba(0, 0, 0, 0.5);
+    padding-top: 250px;
+    padding-bottom: 340px;
+}
+.bannertext{
+    text-align: center;
+}
+.bannertext span{
+    color: #f8b864;
+}
+.bannertext h4{
+font-size: 30px;
+font-family: "Roboto Slab", serif;
+font-weight: 700;
+}
+.bannertext h1{
+    font-size: 60px;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.bannertext p{
+    font-size: 18px;
+    font-family: "Open Sans", Sans-serif;
+    font-weight: 300;
+    padding: 0 365px;
+    line-height: 30px;
+    margin-bottom: 70px;
+
+}
+
+.bannertext{
+    color: #fff;
+}
+.bannertext a{
+   padding: 15px 35px; 
+   background: #f8b864;
+   border-radius: 50px;
+   color: #fff;
+   font-weight: 600;
+   font-family: "Open Sans", Sans-serif;
+   transition: .4s;
+
+}
+.bannertext a:hover{
+    background: #fff;
+    color: #f8b864;
+}
+
+
+/* Bannerpart  End */
+
+/* Goal part start */
+
+#golapart{
+    background: #fff;
+    padding-bottom: 250px;
+
+
+}
+.over{
+    position: relative; 
+}
+
+.goalcard{
+    background: white;
+    padding: 130px 60px;
+box-shadow: 0px 0px 5px  rgba(85, 85, 85,0.2);
+position: absolute;
+top: -100px;
+left: 0;
+width: 100%;
+text-align: center;
+
+}
+.goalcard h3{
+    font-size: 36px;
+    font-family: "Roboto Slab", serif;
+    color: #555555;
+}
+.goalcard p{
+    margin-top: 20px;
+    color: #555555;
+    font-size: 18px;
+    font-family: "Open Sans", Sans-serif;
+    font-weight: 400;
+
+}
+.goalhand{
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+}
+.goalhand::before{
+    position: absolute;
+    height: 1px;
+    width: 150px;
+    background: #555555;
+    content: "";
+    left: -170px;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+.goalhand::after{
+    position: absolute;
+    height: 1px;
+    width: 150px;
+    background: #555555;
+    content: "";
+    right: -170px;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+.goalitempart{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.goalitem{
+    width: 30%;
+}
+.goalitem{
+   font-size: 50px; 
+
+}
+.goalitem{
+    text-align: center;
+}
+.goalitem h3{
+    font-family: "Open Sans", Sans-serif;
+    font-weight: 700;
+    padding-top: 18px;
+    padding-bottom: 0px;
+    margin: 24px 0 16px;
+    color: #555555;
+    font-size: 18px;
+}
+.goalitem p{
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 24px;
+    color: #777777;
+
+}
+
+/* Goal part End */
+
+/* Hearder part start */
+/* Hearder part End */
+
+/* Hearder part start */
+/* Hearder part End */
+
+/* Hearder part start */
+/* Hearder part End */
